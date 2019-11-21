@@ -30,7 +30,7 @@
             <p>+57 (312) 866 2953</p>
           </div>
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
-            <i class="fab fa-linkedin-in mr-3"></i>
+            <i class="fab fa-linkedin-in mr-3 mt-1"></i>
             <p>ocralo</p>
           </div>
         </div>
@@ -40,7 +40,25 @@
           </div>
         </div>
       </div>
-      <div class="col-md-8 rel-bg-content rel-rounded shadow">asda</div>
+      <div class="col-md-8 rel-bg-content rel-rounded shadow">
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <h4>Conoceme</h4>
+          </div>
+          <div class="col-md-9 bg-primary rel-nav">
+            <button type="button" class="btn btn-primary">Conoceme</button>
+            <button type="button" class="btn btn-primary">Proyectos</button>
+            <button type="button" class="btn btn-primary">Habilidades</button>
+            <button type="button" class="btn btn-primary">Estudios</button>
+            <button type="button" class="btn btn-primary">Certificados</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container-fluid">
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -55,7 +73,7 @@ export default {};
   border-radius: 1em;
 }
 .rel-img-profile {
-  background-image: url('~@/assets/img/Rodrigo.jpg');
+  background-image: url("~@/assets/img/Rodrigo.jpg");
   position: relative;
   top: -3em;
   margin-left: auto;
@@ -80,6 +98,10 @@ export default {};
 .rel-cv-download {
   width: 18em;
 }
+.rel-nav {
+  border-radius: 0 1em 0em 1em;
+}
+
 @media (max-width: 992px) {
   .rel-img-profile {
     margin-left: auto;
