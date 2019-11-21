@@ -55,7 +55,7 @@ export default {};
   border-radius: 1em;
 }
 .rel-img-profile {
-  background-image: url("https://ocralo.github.io/img/Rodrigo.jpg");
+  background-image: url('~@/assets/img/Rodrigo.jpg');
   position: relative;
   top: -3em;
   margin-left: auto;
