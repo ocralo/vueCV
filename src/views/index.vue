@@ -8,8 +8,10 @@
         >
           <h4 class="mb-0 pb-0">Rodrigo Escobar</h4>
           <p class="mb-0 text-muted mb-2">ocralo</p>
+          <div class="d-flex flex-wrap justify-content-center">
           <p class="rounded-pill rel-bg-pill p-1 m-1 btn-light shadow-sm">Game Developer</p>
           <p class="rounded-pill rel-bg-pill p-1 m-1 btn-light shadow-sm">Web Developer</p>
+          </div>
           <div class="rel-social"></div>
         </div>
         <div class="rel-info-contac d-flex flex-column mt-4">
@@ -219,7 +221,8 @@ export default {};
   border-radius: 1em;
 }
 .rel-bg-content-left {
-  max-height: 42em;
+  max-height: 46em;
+  margin-bottom: 2em;
 }
 .rel-bg-content-2 {
   background: #211e2b;
