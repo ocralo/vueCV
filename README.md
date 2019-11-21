@@ -1,10 +1,13 @@
-# hojadevida
+# Hoja de vida
 
-## Project setup
+## Librerias
 ```
-npm install
-```
+vuejs
+boopstrap
+fontawesome
 
+```
+<!-- 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -21,4 +24,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://cli.vuejs.org/config/). -->
