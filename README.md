@@ -1,6 +1,6 @@
 # Hoja de vida
 
-## Librerias
+## Librerías utilizadas
 ```
 vuejs
 boopstrap
