@@ -175,7 +175,7 @@ export default {
   }
   .rel-paragraph-proyect {
     line-height: 1.2;
-    padding:1em;
+    padding: 1em;
   }
 }
 @media (max-width: 576px) {

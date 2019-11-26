@@ -5,11 +5,13 @@
       <hr class="rel-hr-title" />
       <div class="container-fluid">
         <div class="row justify-content-around">
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-between pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-java"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">Instacol</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -22,11 +24,13 @@
               >Ver repositorio</a>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-wordpress-simple"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">Pagina Web Semillero De Animación</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -39,11 +43,13 @@
               >Ver Pagina</a>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-wordpress-simple"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">UAO LABS</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -56,11 +62,13 @@
               >Ver Pagina</a>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-vuejs"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">Fincasenalquiler.co</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -73,11 +81,13 @@
               >Ver Pagina</a>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-react"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">IMUAO</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -90,11 +100,13 @@
               >Ver repositorio</a>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 mt-4  d-flex flex-md-wrap flex-lg-nowrap  justify-content-around pt-3 pb-4">
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
             <div class="rel-tex-icon-proyect pr-2">
               <i class="fab fa-vuejs"></i>
             </div>
-            <div class="">
+            <div class>
               <h5 class="p-3">Chatbot UAO Virtual</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
@@ -109,7 +121,6 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12"></div>
   </div>
 </template>
 

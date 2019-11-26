@@ -7,7 +7,7 @@
         class="rel-paragraph"
       >Estudiante de Ingeniería Multimedia, con experiencia en la creación y edición de contenidos para sitios web, desarrollo de aplicaciones y trabajo en equipo. Manejo programas como Adobe Illustrator, Photoshop, Premiere Pro, wordpress; tambien lenguajes de programación, tales como html, css, javascript, c# y java.Sin embargo, cuento con la capacidad de acoplarme facilmente a un nuevo lenguaje o programa de desarrollo. Por otro lado, soy una persona entusiasta, apasionado y pro activa para las tareas que me son asignadas. Cuento con la habilidad para encontrar la solución a problemas que se presenten de forma rápida y efectiva.</p>
       <h4 class="mt-5">Intereses</h4>
-      <div class="d-flex flex-wrap justify-content-around pt-4 pb-4 rel-bg-content-2">
+      <div class="d-flex flex-wrap justify-content-between pt-4 pb-4 rel-bg-content-2">
         <div class="rel-item-interest d-flex m-1">
           <i class="fas fa-gamepad mr-3 rel-icon"></i>
           <p class="m-0 p-0">Videojuegos</p>
@@ -26,7 +26,7 @@
         </div>
       </div>
       <h4 class="mt-4">Habilidades</h4>
-      <div class="d-flex flex-wrap justify-content-around pt-4 pb-4 rel-bg-content-2">
+      <div class="d-flex flex-wrap justify-content-between pt-4 pb-4 rel-bg-content-2">
         <div class="rel-item-hability m-1 w-md-25">
           <p class="m-0 p-0">Wordpress</p>
           <div class="progress">
@@ -149,13 +149,12 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12"></div>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'app',
+  name: "app",
   components: {}
 };
 </script>
