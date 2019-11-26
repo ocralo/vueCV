@@ -151,8 +151,8 @@
       </div>
       <h4 class="mt-4">Experiencia Laboral</h4>
       <div class="container-fluid">
-        <div class="row justify-content-between p-4">
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-5">
+        <div class="row justify-content-between pl-4 pr-4">
+          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
             <div class="d-flex">
               <i class="fas fa-award rel-icon mr-3"></i>
               <div class="div">
@@ -164,7 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-5">
+          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
             <div class="d-flex">
               <i class="fas fa-award rel-icon mr-3"></i>
               <div class="div">
@@ -176,7 +176,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-5">
+          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
             <div class="d-flex">
               <i class="fas fa-award rel-icon mr-3"></i>
               <div class="div">

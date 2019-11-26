@@ -14,11 +14,14 @@ export default {
 </script>
 
 <style>
-html,body {
+body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background-color: #1D1A26;
+  background-image: url("~@/assets/img/fondo_cv.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
-  height: 100vh;
   margin: 0;
 }
 </style>
