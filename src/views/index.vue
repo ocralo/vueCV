@@ -9,7 +9,6 @@
           <h4 class="mb-0 pb-0">Rodrigo Escobar</h4>
           <p class="mb-0 text-muted mb-2">ocralo</p>
           <div class="d-flex flex-wrap justify-content-center">
-            <p class="rounded-pill rel-bg-pill p-1 m-1 btn-light shadow-sm">Game Developer</p>
             <p class="rounded-pill rel-bg-pill p-1 m-1 btn-light shadow-sm">Web Developer</p>
           </div>
           <div class="rel-social"></div>
@@ -25,15 +24,21 @@
           </div>
           <div class="rel-info-contac-item d-flex p-1 text-white-50 d-inline-block text-truncate">
             <i class="far fa-envelope mr-3"></i>
-            <p>ocralo@gmail.com</p>
+            <p>
+              <a href="mailto:ocralo@gmail.com" class="text-white-50">ocralo@gmail.com</a>
+            </p>
           </div>
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
             <i class="fas fa-mobile-alt mr-3"></i>
-            <p>+57 (312) 866 2953</p>
+            <p>
+              <a href="tel:+57312-866-2953" class="text-white-50">+57 (312) 866 2953</a>
+            </p>
           </div>
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
             <i class="fab fa-linkedin-in mr-3 mt-1"></i>
-            <p>ocralo</p>
+            <p>
+              <a href="https://www.linkedin.com/in/ocralo/" class="text-white-50">ocralo</a>
+            </p>
           </div>
         </div>
         <div class="w-100 d-flex justify-content-center mt-4">
@@ -45,9 +50,12 @@
       <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow">
         <div class="row d-flex justify-content-end">
           <div class="col-md-8 bg-primary rel-nav">
-            <button type="button" class="btn btn-primary h-100" v-on:click="Changeview(0)">Conoceme</button>
-            <button type="button" class="btn btn-primary h-100" v-on:click="Changeview(1)">Proyectos</button>
-            <button type="button" class="btn btn-primary h-100" v-on:click="Changeview(2)">Estudios</button>
+            <button type="button" class="btn btn-primary h-100" v-if="view!=0" v-on:click="Changeview(0)">Conoceme</button>
+            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==0" v-on:click="Changeview(0)">Conoceme</button>
+            <button type="button" class="btn btn-primary h-100" v-if="view!=1" v-on:click="Changeview(1)">Proyectos</button>
+            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==1" v-on:click="Changeview(1)">Proyectos</button>
+            <button type="button" class="btn btn-primary h-100" v-if="view!=2" v-on:click="Changeview(2)">Estudios</button>
+            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==2" v-on:click="Changeview(2)">Estudios</button>
           </div>
         </div>
         <div class="row mt-4">
