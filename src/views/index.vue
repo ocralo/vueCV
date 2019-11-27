@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow">
-        <div class="row d-flex justify-content-end">
+        <div class="row d-flex justify-content-end rel-nav-sticky">
           <div class="col-md-8 bg-primary rel-nav">
             <button
               type="button"
@@ -209,6 +209,14 @@ export default {
     position: -webkit-sticky;
     position: sticky;
     top: 3em;
+  }
+}
+@media (max-width: 767px) {
+  .rel-nav-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    z-index: 100;
   }
 }
 
