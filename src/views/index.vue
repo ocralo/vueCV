@@ -50,12 +50,42 @@
       <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow">
         <div class="row d-flex justify-content-end">
           <div class="col-md-8 bg-primary rel-nav">
-            <button type="button" class="btn btn-primary h-100" v-if="view!=0" v-on:click="Changeview(0)">Conoceme</button>
-            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==0" v-on:click="Changeview(0)">Conoceme</button>
-            <button type="button" class="btn btn-primary h-100" v-if="view!=1" v-on:click="Changeview(1)">Proyectos</button>
-            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==1" v-on:click="Changeview(1)">Proyectos</button>
-            <button type="button" class="btn btn-primary h-100" v-if="view!=2" v-on:click="Changeview(2)">Estudios</button>
-            <button type="button" class="btn btn-primary font-weight-bold h-100" v-if="view==2" v-on:click="Changeview(2)">Estudios</button>
+            <button
+              type="button"
+              class="btn btn-primary h-100"
+              v-if="view!=0"
+              v-on:click="Changeview(0)"
+            >Conoceme</button>
+            <button
+              type="button"
+              class="btn btn-primary font-weight-bold h-100"
+              v-if="view==0"
+              v-on:click="Changeview(0)"
+            >Conoceme</button>
+            <button
+              type="button"
+              class="btn btn-primary h-100"
+              v-if="view!=1"
+              v-on:click="Changeview(1)"
+            >Proyectos</button>
+            <button
+              type="button"
+              class="btn btn-primary font-weight-bold h-100"
+              v-if="view==1"
+              v-on:click="Changeview(1)"
+            >Proyectos</button>
+            <button
+              type="button"
+              class="btn btn-primary h-100"
+              v-if="view!=2"
+              v-on:click="Changeview(2)"
+            >Estudios</button>
+            <button
+              type="button"
+              class="btn btn-primary font-weight-bold h-100"
+              v-if="view==2"
+              v-on:click="Changeview(2)"
+            >Estudios</button>
           </div>
         </div>
         <div class="row mt-4">
@@ -172,6 +202,14 @@ export default {
 
 #barra-wordpress:hover:before {
   content: "50%";
+}
+
+@media (min-width: 768px) {
+  .rel-bg-content-left {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 3em;
+  }
 }
 
 @media (max-width: 992px) {
