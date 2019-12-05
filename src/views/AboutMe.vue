@@ -152,39 +152,73 @@
       <h4 class="mt-4">Experiencia Laboral</h4>
       <div class="container-fluid">
         <div class="row justify-content-between pl-4 pr-4">
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
-            <div class="d-flex">
-              <i class="fas fa-award rel-icon mr-3"></i>
-              <div class="div">
+          <!--  -->
+           <div class="col-md-5 rel-bg-content-2 pt-3 pb-3 mt-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                  <i class="fas fa-award rel-icon"></i>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
                 <h5 class="mb-0">Monitor logístico</h5>
                 <p class="text-secondary mb-3 mt-0">Febrero de 2015 - Abril de 2019</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
                 <p
-                  class="rel-paragraph-proyect text-white-50 text-justify pr-3"
+                  class="rel-paragraph-proyect text-white-50 text-justify p-0"
                 >Desarrollo de páginas web en Wordpress, actualizador de contenido de páginas y envío de correos masivos con Mailchimp, ademas de creacion de plantillas</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
-            <div class="d-flex">
-              <i class="fas fa-award rel-icon mr-3"></i>
-              <div class="div">
+          <!--  -->
+           <div class="col-md-5 rel-bg-content-2 pt-3 pb-3 mt-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                  <i class="fas fa-award rel-icon"></i>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
                 <h5 class="mb-0">Auxiliar Operativo</h5>
                 <p class="text-secondary mb-3 mt-0">Marzo de 2019 - Agosto de 2019</p>
+                
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
                 <p
-                  class="rel-paragraph-proyect text-white-50 text-justify pr-3"
+                  class="rel-paragraph-proyect text-white-50 text-justify p-0"
                 >Desarrollo de los contenidos audiovisuales de los cursos virtuales de la plataforma UAO Virtual, ademas de soporte en la plataforma moodle</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5 rel-bg-content-2 p-3 mt-3">
-            <div class="d-flex">
-              <i class="fas fa-award rel-icon mr-3"></i>
-              <div class="div">
-                <h5 class="mb-0">Desarrollador de Experiencias Interactivas</h5>
-                <p class="text-secondary mb-3 mt-0">Septiembre de 2019 - Diciembre de 2019</p>
-                <p
-                  class="rel-paragraph-proyect text-white-50 text-justify pr-3"
-                >Desarrollo de una aplicacion multimedia actualizable y administrable para realizar recorridos virtuales y yincanas de formavirtual</p>
+          <!--  -->
+          <div class="col-md-5 rel-bg-content-2 pt-3 pb-3 mt-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                  <i class="fas fa-award rel-icon"></i>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
+                  <h5 class="mb-0">Desarrollador de Experiencias Interactivas</h5>
+                  <p class="text-secondary mb-3 mt-0">Septiembre de 2019 - Diciembre de 2019</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p
+                    class="rel-paragraph-proyect text-white-50 text-justify p-0"
+                  >Desarrollo de una aplicacion multimedia actualizable y administrable para realizar recorridos virtuales y yincanas de formavirtual para la Universidad Autonoma de Occidente</p>
+                </div>
               </div>
             </div>
           </div>
