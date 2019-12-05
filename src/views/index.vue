@@ -37,7 +37,7 @@
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
             <i class="fab fa-linkedin-in mr-3 mt-1"></i>
             <p>
-              <a href="https://www.linkedin.com/in/ocralo/" class="text-white-50">ocralo</a>
+              <a href="https://www.linkedin.com/in/ocralo/" target="_blank" class="text-white-50">ocralo</a>
             </p>
           </div>
         </div>
@@ -146,8 +146,7 @@ export default {
 }
 
 .rel-font-bold {
-  color: #1d1a26 !important;
-  border-bottom: 3px solid #1d1a26 !important;
+  border-bottom: 3px solid white !important;
   font-weight: 500;
 }
 
