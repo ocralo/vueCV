@@ -16,7 +16,7 @@
         <div class="rel-info-contac d-flex flex-column mt-4">
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
             <i class="far fa-calendar-alt mr-3"></i>
-            <p>Julio 21, 1996</p>
+            <p>Julio 28, 1996</p>
           </div>
           <div class="rel-info-contac-item d-flex p-1 text-white-50">
             <i class="far fa-map mr-3"></i>
@@ -42,9 +42,11 @@
           </div>
         </div>
         <div class="w-100 d-flex justify-content-center mt-4">
-          <div class="rel-cv-download rounded-pill text-center p-2 btn btn-primary">
+          <a href="https://drive.google.com/file/d/1I1u543Xm9kp40SvonoeLGrnmaZpdM0y7/view" target="_blank" rel="noopener noreferrer">
+          <div class="rounded-pill text-center p-2 btn btn-primary rel-cv-download">
             <i class="fas fa-download mr-2"></i>HDV
           </div>
+          </a>
         </div>
       </div>
       <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow">
@@ -162,7 +164,7 @@ export default {
   color: #1d1a25 !important;
 }
 .rel-cv-download {
-  width: 18em;
+  width: 10em;
 }
 .rel-nav {
   border-radius: 0em 1em 0em 1em;
