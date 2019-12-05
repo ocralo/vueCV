@@ -6,10 +6,31 @@
       <div class="container-fluid">
         <div class="row justify-content-around">
           <div
-            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-between pt-3 pb-4"
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
           >
             <div class="rel-tex-icon-proyect pr-2">
-              <i class="fab fa-java"></i>
+               <i class="fab fa-java"></i>
+            </div>
+            <div class>
+              <h5 class="p-3 mb-0">Vive la UAO</h5>
+              
+              <p
+                class="rel-paragraph-proyect text-white-50 text-justify"
+              >Desarrollo de una aplicacion web, en la que se administre el contenido de la aplicacion mobil vive la uao</p>
+              <p class="text-secondary pl-3 pr-3 m-0">En desarrolló</p>
+              <!-- <a
+                class="mb-1 p-2"
+                href="https://github.com/ocralo/Instacol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Ver repositorio</a> -->
+            </div>
+          </div>
+          <div
+            class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
+          >
+            <div class="rel-tex-icon-proyect pr-2">
+               <i class="fab fa-java"></i>
             </div>
             <div class>
               <h5 class="p-3">Instacol</h5>
@@ -72,7 +93,7 @@
               <h5 class="p-3">Fincasenalquiler.co</h5>
               <p
                 class="rel-paragraph-proyect text-white-50 text-justify"
-              >Desarrolló una página web, con vista cliente y vista administrador, en la cual se puede observar en la vista cliente las diferentes fincas que se pueden alquilar y en la vista administrador se desarrolló un crud para los datos que se mostrarán en la vista cliente.</p>
+              >Desarrollo una página web, con vista cliente y vista administrador, en la cual se puede observar en la vista cliente las diferentes fincas que se pueden alquilar y en la vista administrador se desarrolló un crud para los datos que se mostrarán en la vista cliente.</p>
               <a
                 class="mb-1 p-2"
                 href="http://fincasenalquiler.co/#/"
