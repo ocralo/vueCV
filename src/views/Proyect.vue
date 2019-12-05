@@ -9,7 +9,7 @@
             class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
           >
             <div class="rel-tex-icon-proyect pr-2">
-               <i class="fab fa-java"></i>
+               <i class="fab fa-react"></i>
             </div>
             <div class>
               <h5 class="p-3 mb-0">Vive la UAO</h5>
