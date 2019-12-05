@@ -42,14 +42,18 @@
           </div>
         </div>
         <div class="w-100 d-flex justify-content-center mt-4">
-          <a href="https://drive.google.com/file/d/1I1u543Xm9kp40SvonoeLGrnmaZpdM0y7/view" target="_blank" rel="noopener noreferrer">
-          <div class="rounded-pill text-center p-2 btn btn-primary rel-cv-download">
-            <i class="fas fa-download mr-2"></i>HDV
-          </div>
+          <a
+            href="https://drive.google.com/file/d/1I1u543Xm9kp40SvonoeLGrnmaZpdM0y7/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="rounded-pill text-center p-2 btn btn-primary rel-cv-download">
+              <i class="fas fa-download mr-2"></i>HDV
+            </div>
           </a>
         </div>
       </div>
-      <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow">
+      <div class="col-md-8 rel-bg-content rel-bg-content-rigth rel-rounded shadow mb-5">
         <div class="row d-flex justify-content-end rel-nav-sticky">
           <div class="col-md-8 bg-primary rel-nav">
             <button
@@ -60,7 +64,7 @@
             >Conoceme</button>
             <button
               type="button"
-              class="btn btn-primary font-weight-bold h-100"
+              class="btn btn-primary rel-font-bold h-100"
               v-if="view==0"
               v-on:click="Changeview(0)"
             >Conoceme</button>
@@ -72,7 +76,7 @@
             >Proyectos</button>
             <button
               type="button"
-              class="btn btn-primary font-weight-bold h-100"
+              class="btn btn-primary rel-font-bold h-100"
               v-if="view==1"
               v-on:click="Changeview(1)"
             >Proyectos</button>
@@ -84,7 +88,7 @@
             >Estudios</button>
             <button
               type="button"
-              class="btn btn-primary font-weight-bold h-100"
+              class="btn btn-primary rel-font-bold h-100"
               v-if="view==2"
               v-on:click="Changeview(2)"
             >Estudios</button>

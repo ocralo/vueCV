@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row mb-4">
     <div class="col-md-12 pb-3">
       <h3 class="rel-title-menu">Proyectos</h3>
       <hr class="rel-hr-title" />
