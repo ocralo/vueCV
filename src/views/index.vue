@@ -144,6 +144,13 @@ export default {
   background: #211e2b;
   border-radius: 1em;
 }
+
+.rel-font-bold {
+  color: #1d1a26 !important;
+  border-bottom: 3px solid #1d1a26 !important;
+  font-weight: 500;
+}
+
 .rel-img-profile {
   background-image: url("~@/assets/img/Rodrigo.jpg");
   position: relative;
