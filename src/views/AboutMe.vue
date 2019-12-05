@@ -28,33 +28,20 @@
       <h4 class="mt-4">Habilidades</h4>
       <div class="d-flex flex-wrap justify-content-between p-4 rel-bg-content-2">
         <div class="rel-item-hability m-1 w-md-25">
-          <p class="m-0 p-0">Wordpress</p>
+          <p class="m-0 p-0">HTML</p>
           <div class="progress">
             <div
               class="progress-bar"
               role="progressbar"
-              style="width: 40%"
-              aria-valuenow="40"
+              style="width: 70%"
+              aria-valuenow="70"
               aria-valuemin="0"
               aria-valuemax="100"
-            >40%</div>
+            >70%</div>
           </div>
         </div>
         <div class="rel-item-hability m-1 w-md-25">
-          <p class="m-0 p-0">Java</p>
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 40%"
-              aria-valuenow="40"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >60%</div>
-          </div>
-        </div>
-        <div class="rel-item-hability m-1 w-md-25">
-          <p class="m-0 p-0">MYSQL</p>
+          <p class="m-0 p-0">CSS</p>
           <div class="progress">
             <div
               class="progress-bar"
@@ -64,6 +51,45 @@
               aria-valuemin="0"
               aria-valuemax="100"
             >60%</div>
+          </div>
+        </div>
+        <div class="rel-item-hability m-1 w-md-25">
+          <p class="m-0 p-0">Wordpress</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >50%</div>
+          </div>
+        </div>
+        <div class="rel-item-hability m-1 w-md-25">
+          <p class="m-0 p-0">Java</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >50%</div>
+          </div>
+        </div>
+        <div class="rel-item-hability m-1 w-md-25">
+          <p class="m-0 p-0">MYSQL</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >50%</div>
           </div>
         </div>
         <div class="rel-item-hability m-1 w-md-25">
@@ -112,10 +138,36 @@
               class="progress-bar"
               role="progressbar"
               style="width: 50%"
-              aria-valuenow="40"
+              aria-valuenow="50"
               aria-valuemin="0"
               aria-valuemax="100"
             >50%</div>
+          </div>
+        </div>
+        <div class="rel-item-hability m-1 w-md-25">
+          <p class="m-0 p-0">Adobe Illustrator</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 60%"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >60%</div>
+          </div>
+        </div>
+        <div class="rel-item-hability m-1 w-md-25">
+          <p class="m-0 p-0">Adobe Premier</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 70%"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >70%</div>
           </div>
         </div>
       </div>

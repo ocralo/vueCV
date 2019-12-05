@@ -4,7 +4,7 @@
       <h3 class="rel-title-menu">Proyectos</h3>
       <hr class="rel-hr-title" />
       <div class="container-fluid">
-        <div class="row justify-content-around">
+        <div class="row justify-content-between pl-4 pr-4">
           <div
             class="col-md-5 rel-bg-content-2 mt-4 d-flex flex-md-wrap flex-lg-nowrap justify-content-around pt-3 pb-4"
           >

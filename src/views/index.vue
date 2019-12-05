@@ -58,7 +58,7 @@
           <div class="col-md-8 bg-primary rel-nav">
             <button
               type="button"
-              class="btn btn-primary h-100"
+              class="btn btn-primary h-100 font-weight-light"
               v-if="view!=0"
               v-on:click="Changeview(0)"
             >Conoceme</button>
@@ -70,7 +70,7 @@
             >Conoceme</button>
             <button
               type="button"
-              class="btn btn-primary h-100"
+              class="btn btn-primary h-100 font-weight-light"
               v-if="view!=1"
               v-on:click="Changeview(1)"
             >Proyectos</button>
@@ -82,7 +82,7 @@
             >Proyectos</button>
             <button
               type="button"
-              class="btn btn-primary h-100"
+              class="btn btn-primary h-100 font-weight-light"
               v-if="view!=2"
               v-on:click="Changeview(2)"
             >Estudios</button>
